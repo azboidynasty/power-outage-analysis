@@ -132,19 +132,19 @@ It's also likely that outage durations are more influenced by season rather than
 
 Using GridSearchCV to tune hyperparameters in the ranges:
 
-`
+```
 'model__n_estimators': [50, 100, 200],
 'model__max_depth': [10, 20, None],
 'model__min_samples_split': [2, 5, 10]
-`
+```
 
 The best hyperparameters turned out to be:
 
-`
+```
 'model__max_depth': 20,
 'model__min_samples_split': 10,
 'model__n_estimators': 200
-`
+```
 
 Our new MAE, although still not ideal, is a slight improvement, decreasing to around 2800 minutes, or around 46.67 hours.
 
