@@ -89,6 +89,7 @@ Now, let's take a look at what happens when we examine one state in particular.
   frameborder="0"
 ></iframe>
 
+
 Florida is infamous for being struck by significantly more hurricanes than most other states. If we analyze the distributions of outage durations by month in Florida, we can see that August, September, and October, the peak of hurricane season, have the longest power outages, where storms can knock out power for several days at a time.
 
 The United States is such a large and geographically diverse country, which makes it basically impossible to generalize outage durations for the entire country. This specific plot tells us that location matters when predicting outage duration.
